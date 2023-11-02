@@ -51,7 +51,9 @@ dialog {
     justify-content: center;
     gap: 30px;
     margin: auto;
-    position: fixed;
+    position: absolute;
+    left: 0;
+    right: 0;
     z-index: 999;
     
     width: 500px;
@@ -190,12 +192,19 @@ article p {
     }
 
     dialog {
-        width: 80%;
-        height: 55%;
+        width: 80vw;
+        height: 55vh;
+        padding: 10px 5px;
+    }
+
+    dialog section {
+        width: 100%;
+        height: 100%;
     }
 
     section {
         width: 100vw;
+        height: 100vh;
         background-size: cover;
         text-align: center;
     }
@@ -230,8 +239,8 @@ article p {
 
     #footer aside img {
         display: flex;
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
     }
     
 }
