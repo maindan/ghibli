@@ -192,7 +192,7 @@ article p {
     }
 
     dialog {
-        width: 80vw;
+        width: 65vw;
         height: auto;
         padding: 10px 5px;
     }
@@ -221,7 +221,7 @@ article p {
     }
 
     #footer ul {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     #footer aside ul a {
