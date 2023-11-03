@@ -192,8 +192,8 @@ article p {
     }
 
     dialog {
-        width: 65vw;
-        height: auto;
+        width: 80vw;
+        height: 50vh;
         padding: 10px 5px;
     }
 
