@@ -180,6 +180,10 @@ article p {
 }
 
 @media screen and (max-width: 700px) {
+    html {
+        width: 100vh;
+    }
+    
     header {
         height: auto;
         flex-direction: column;
@@ -204,7 +208,7 @@ article p {
 
     section {
         text-align: center;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 
     article {
