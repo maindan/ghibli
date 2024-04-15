@@ -151,11 +151,11 @@ article {
     justify-content: center;
     width: fit-content;
     max-height: fit-content;
-    padding: 20px 30px;
+    padding: 20px 200px;
     background: #E6E6E6;
     gap: 10px;
 
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 article img {
@@ -200,24 +200,20 @@ article p {
     
     header {
         height: auto;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-    }
-
-    button {
-        margin-top: 10px;
     }
 
     dialog {
         width: 80vw;
         height: 60%;
-        padding: 15px 5px;
+        padding: 10px 1px;
     }
 
     dialog section {
         width: 100%;
         height: auto;
+        text-align: center;
+        text-wrap: wrap;
     }
 
     section {
@@ -229,10 +225,11 @@ article p {
         width: 100%;
         height: auto;
         padding: 10px;
+        flex-direction: column;
     }
-    article img {
-        display: none;
-    }
+    /* article img {
+        min-width: 200px;
+    } */
 
     #footer {
         height: auto;
